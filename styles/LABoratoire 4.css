@@ -1,0 +1,45 @@
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header img {
+    max-width: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 15% 200px auto 150px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    padding-left: 5px;
+    font-size: 1.2rem;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 15% 200px auto 150px;
+    border: 1px solid black;
+    padding-left: 5px;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.grid-container1 img {
+    max-width: 200px;
+    max-height: 50px;
+    margin: 10px;
+}
+
+.premierTableau {
+    margin-bottom: 50px;
+}
